@@ -13,8 +13,8 @@ void print_number(int n)
 	_putchar('-');
 	d = -d;
 	}
-if ((num / 10) > 0)
-print_number(num / 10);
+if ((d / 10) > 0)
+print_number(d / 10);
 
-putchar((num % 10) + 48);
+putchar((d % 10) + 48);
 }
