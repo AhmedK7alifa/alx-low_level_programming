@@ -8,7 +8,7 @@ void print_number(int n)
 {
 	unsigned int d = n;
 
-	if (n < a)
+	if (n < 0)
 	{
 		_putcha r('_');
 		d = -d;
